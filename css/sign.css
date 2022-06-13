@@ -1,0 +1,75 @@
+/* SIGN */
+
+.hidden {
+  display: none;
+}
+
+fieldset {
+  border: none;
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  text-align: center;
+}
+
+section {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1rem 5%;
+}
+
+section ul {
+  margin: 2rem 0;
+}
+
+section ul> li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+section input {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+section .sub-tit {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.6rem;
+}
+
+.login {
+  margin: 7rem auto 2rem;
+}
+
+.login .sns_login> :nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.login .sns_login> :nth-child(2) a {
+  width: 65px;
+  height: 65px;
+}
+
+.login .sns_login> :nth-child(2)> a:not(:first-child) {
+  margin-left: 10px;
+}
+
+.find ul .radio-btns {
+  justify-content: flex-start;
+}
+
+.find ul .radio-btns span input {
+  width: 30px;
+}
